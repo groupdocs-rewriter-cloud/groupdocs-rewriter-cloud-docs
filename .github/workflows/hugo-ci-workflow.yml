@@ -19,6 +19,7 @@ jobs:
       - name: hugo build
         run: |
           pwd
+          echo ${{ env.PRODUCT }}
 
       # - name: hugo deploy
       #   uses: appleboy/ssh-action@master
