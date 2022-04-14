@@ -3,6 +3,7 @@ id: "rewriter"
 url: "rewriter"
 title: "GroupDocs.Rewriter Cloud Product Family"
 productName: "GroupDocs.Rewriter Cloud"
-description: ""
-keywords: ""
+type: "product-family"
+layout: "product-family-template"
+useLandingCss: true
 ---
