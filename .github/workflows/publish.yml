@@ -25,15 +25,15 @@ jobs:
 
       - name: Run and build Hugo
         run: |
-          mkdir -p common/content/${{ env.PRODUCT }}
-          cp -r java common/content/${{ env.PRODUCT }}
-          cp -r net common/content/${{ env.PRODUCT }}
-          cp _index.md common/content/${{ env.PRODUCT }}
-          hugo --source common --minify --config config.toml,ignore-total-config.toml
+          mkdir -p docs-cloud-common/content/${{ env.PRODUCT }}
+          cp -r rewriter docs-cloud-common/content/${{ env.PRODUCT }}
+          cp _index.md docs-cloud-common/content/${{ env.PRODUCT }}
+          hugo --source docs-cloud-common --minify --config config.toml,ignore-total-config.toml
+      
       - name: Deploy sitemap
         uses: nogsantos/scp-deploy@master
         with:
-          src: common/public/product-sitemap.xml
+          src: docs-cloud-common/public/product-sitemap.xml
           host: ${{ secrets.DOCS_SSH_HOST }}
           remote: ${{ secrets.DOCS_SSH_DIR }}/sitemaps/${{ env.PRODUCT }}.xml
           user: ${{ secrets.DOCS_SSH_USER }}
@@ -42,7 +42,7 @@ jobs:
       - name: Deploy documentation
         uses: nogsantos/scp-deploy@master
         with:
-          src: common/public/${{ env.PRODUCT }}
+          src: docs-cloud-common/public/${{ env.PRODUCT }}
           host: ${{ secrets.DOCS_SSH_HOST }}
           remote: ${{ secrets.DOCS_SSH_DIR }}
           user: ${{ secrets.DOCS_SSH_USER }}
