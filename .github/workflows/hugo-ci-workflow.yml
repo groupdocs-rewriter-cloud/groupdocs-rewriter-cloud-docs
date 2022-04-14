@@ -1,10 +1,14 @@
-name: Hugo-CI
+name: build
 on:
   push:
     branches:
       - main
     paths-ignore:
         '.github/**'
+  # Triggers the workflow on pull
+  pull_request:
+  # Run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   job-one:
@@ -18,17 +22,7 @@ jobs:
 
       - name: hugo build
         run: |
-          pwd
-          this=${{ env.PRODUCT }}
-          echo $this
-
-      # - name: hugo deploy
-      #   uses: appleboy/ssh-action@master
-      #   with:
-      #     host: ${{ secrets.HOST }}
-      #     username: ${{ secrets.USERNAME }}
-      #     key: ${{ secrets.SSHKEY }}
-      #     port: ${{ secrets.SSHPORT }}
-      #     script: |
-      #       sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
-      #       sudo nginx -s reload
+          mkdir -p docs-cloud-common/content/${{ env.PRODUCT }}
+          cp -r rewriter docs-cloud-common/content/${{ env.PRODUCT }}
+          cp _index.md docs-cloud-common/content/${{ env.PRODUCT }}
+          hugo --source docs-cloud-common --minify --config config.toml,ignore-total-config.toml
