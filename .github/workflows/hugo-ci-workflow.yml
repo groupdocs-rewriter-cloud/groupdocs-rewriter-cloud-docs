@@ -19,7 +19,8 @@ jobs:
       - name: hugo build
         run: |
           pwd
-          echo ${{ env.PRODUCT }}
+          this=${{ env.PRODUCT }}
+          echo $this
 
       # - name: hugo deploy
       #   uses: appleboy/ssh-action@master
