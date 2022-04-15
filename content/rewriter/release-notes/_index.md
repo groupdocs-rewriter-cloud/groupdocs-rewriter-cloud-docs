@@ -1,7 +1,7 @@
 ---
-id: "release-notes-2022"
-url: "rewriter/release-notes-2022"
-title: "Release Notes — 2022"
+id: "release-notes"
+url: "rewriter/release-notes"
+title: "Release Notes"
 productName: "GroupDocs.Rewriter Cloud"
 description: ""
 keywords: ""
