@@ -1,3 +1,4 @@
 [submodule "docs-cloud-common"]
 	path = docs-cloud-common
 	url = https://github.com/groupdocs/docs-cloud-common.git
+	branch = master
