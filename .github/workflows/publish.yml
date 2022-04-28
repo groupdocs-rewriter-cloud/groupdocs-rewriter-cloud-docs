@@ -25,7 +25,6 @@ jobs:
 
       - name: Run and build Hugo
         run: |
-          mkdir -p docs-cloud-common/content/
           cp -r content/${{ env.PRODUCT }} docs-cloud-common/content/
           hugo --source docs-cloud-common --minify --config config.toml,ignore-total-config.toml
       
