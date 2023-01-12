@@ -18,8 +18,11 @@ User should put in the requests body following information to paraphrase a docum
 * **savepath** — folder for paraphrased file (ex: paraphrased)
 * **savefile** — name of paraphrased file (ex: paraphrased.docx)
 * **storage** — name of storage
+* **diversity** — diversity of paraphrasing, "medium" or "high", default is "off"
 
 To paraphrase plain text the following information should be put in the requests body:
 
 * **language** — language of source text (ex: en)
 * **text** — text to paraphrase (ex: hello world)
+* **diversity** — diversity of paraphrasing, "medium" or "high", default is "off"
+* **suggestions** — to receive several suggested variants of paraphrasing (from 1 to 3)

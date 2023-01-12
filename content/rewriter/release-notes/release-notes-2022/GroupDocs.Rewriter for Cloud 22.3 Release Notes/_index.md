@@ -1,9 +1,9 @@
 ---
-id: "groupdocs-rewriter-for-cloud-22-03-release-notes"
-url: "rewriter/groupdocs-rewriter-for-cloud-22-03-release-notes"
-title: "GroupDocs.Rewriter for Cloud 22.3.0 Release Notes"
+id: "groupdocs-rewriter-for-cloud-22-3-release-notes"
+url: "rewriter/groupdocs-rewriter-for-cloud-22-3-release-notes"
+title: "GroupDocs.Rewriter for Cloud 22.3 Release Notes"
 productName: "GroupDocs.Rewriter Cloud"
-weight: 2
+weight: 12
 description: ""
 keywords: ""
 ---
