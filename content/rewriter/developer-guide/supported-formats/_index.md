@@ -13,8 +13,8 @@ be paraphrased putting it in the request’s body:
 * **extension of word file (docx / docm / doc / rtf)** — to paraphrase Microsoft Word document
 * **extension of PDF file (pdf)** — to paraphrase Adobe PDF document
 * **extension of OpenDocument files (odt)** — to paraphrase files of OpenDocument format
-* **extensiion of Markdown file (md)** - to paraphrase Markdown file
-* **extensiion of HTML file (html)** - to paraphrase HTML file
+* **extension of Markdown file (md)** - to paraphrase Markdown file
+* **extension of HTML file (html)** - to paraphrase HTML file
 * **plain text (txt)** - to paraphrase plain text files or text in the form of lines
 
 In addition to rephrasing, GroupDocs.Rewriter Cloud can save the resulting document in various file formats other than

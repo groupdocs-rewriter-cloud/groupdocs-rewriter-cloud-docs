@@ -55,9 +55,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Download_File.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_download_file.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -113,9 +117,13 @@ Our API is completely independent of your operating system, database system, or 
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Upload_File.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_upload_file.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -159,9 +167,13 @@ Our API is completely independent of your operating system, database system, or 
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="3" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Delete_File.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_delete_file.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -205,9 +217,13 @@ Our API is completely independent of your operating system, database system, or 
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Copy_File.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_copy_file.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -253,8 +269,12 @@ Our API is completely independent of your operating system, database system, or 
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="5" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Move_File.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_move_file.py>}}
 
 {{< /tab >}} {{< /tabs >}}

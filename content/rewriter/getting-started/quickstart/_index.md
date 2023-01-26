@@ -45,7 +45,7 @@ Request
 curl -X POST "https://api.groupdocs.cloud/v1.0/rewriter/text" \
 -H "Authorization: Bearer TOKEN" \
 -H "Content-Type: application/json" \
--d "'[{"language": "en", "text": "Our shop is closed next week"}]'"
+-d "'[{"language": "en", "text": "Our shop is closed next week", "diversity": "high", "suggestions":2}]'"
 ```
 
 Response
@@ -54,7 +54,7 @@ Response
 {
     "status": "ok",
     "message": "Text rewrited successfully",
-    "result": "Our shop will be closed next week"
+    "result": ["Our store closes next week", "Next week our shop will be closed"]
 }
 ```
 
@@ -62,12 +62,15 @@ Response
 
 ###### SDKs ######
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Rewrite_Text.cs >}}
 
-{{< /tab >}} {{< /tabs >}}
+{{< /tab >}} {{< tab tabNum="2" >}}
 
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_rewrite_text.py >}}
+
+{{< /tab >}} {{< /tabs >}}
 ##### To rewrite a document #####
 
 ###### cURL ######
@@ -78,7 +81,7 @@ Request
 curl -X POST "https://api.groupdocs.cloud/v1.0/rewriter/document" \
 -H "Authorization: Bearer TOKEN" \
 -H "Content-Type: application/json" \
--d "'[ { \"format\":\"docx\", \"outformat\":\"docx\", \"language\":\"en\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"paraphrasedDoc.docx\", \"storage\":\"MyStorage\"}]'"
+-d "'[ { \"format\":\"docx\", \"outformat\":\"docx\", \"language\":\"en\", \"diversity\":\"medium\", \"name\":\"document.docx\", \"folder\":\"myFolder\", \"savepath\":\"myFolder\", \"savefile\":\"paraphrasedDoc.docx\", \"storage\":\"MyStorage\"}]'"
 ```
 
 Response
@@ -92,9 +95,12 @@ Response
 
 ###### SDKs ######
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Rewrite_Document.cs >}}
 
-{{< /tab >}} {{< /tabs >}}
+{{< /tab >}} {{< tab tabNum="2" >}}
 
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_rewrite_document.py >}}
+
+{{< /tab >}} {{< /tabs >}}

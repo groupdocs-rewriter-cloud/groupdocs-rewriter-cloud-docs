@@ -27,3 +27,4 @@ Our supported SDKs are 100% tested and out of the box running. These SDKs are op
 
 * [GroupDocs.Rewriter Cloud for cURL](https://products.groupdocs.cloud/rewriter/curl)
 * [GroupDocs.Rewriter Cloud for .NET](https://products.groupdocs.cloud/rewriter/net)
+* [GroupDocs.Rewriter Cloud for Python](https://products.groupdocs.cloud/rewriter/python)

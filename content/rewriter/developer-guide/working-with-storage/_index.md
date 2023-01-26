@@ -49,9 +49,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Storage_Exists.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_storage_exists.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -94,9 +98,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Object_Exists.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_object_exists.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -137,9 +145,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="3" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Space_Usage.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_space_usage.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -190,8 +202,12 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_File_Versions.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_file_versions.py >}}
 
 {{< /tab >}} {{< /tabs >}}

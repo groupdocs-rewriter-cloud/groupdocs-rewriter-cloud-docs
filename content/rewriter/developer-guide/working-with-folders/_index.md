@@ -7,13 +7,6 @@ weight: 7
 description: ""
 keywords: ""
 ---
-
- 
-
-
-
-
-
 # Get the File Listing of a Specific Folder #
 
 This API allows you to get a list of all files of a specific folder from the specified Cloud Storage. If you do not pass storage name API will find the folder in GroupDocs Cloud Storage. 
@@ -82,9 +75,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="1" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Files_List.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_get_files_list.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -126,9 +123,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="2" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Create_Folder.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_create_folder.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -170,9 +171,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="3" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Delete_Folder.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_delete_folder.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -216,9 +221,13 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Copy_Folder.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_copy_folder.py >}}
 
 {{< /tab >}} {{< /tabs >}}
 
@@ -262,8 +271,12 @@ Our API is completely independent of your operating system, database system or d
 
 ### SDK Examples ###
 
-{{< tabs tabTotal="1" tabID="1" tabName1="C#" >}} {{< tab tabNum="1" >}}
+{{< tabs tabTotal="2" tabID="5" tabName1="C#" tabName2="Python" >}} {{< tab tabNum="1" >}}
 
 {{< gist groupdocs-rewriter-cloud-gists c5e9dcef763dd8ea30c0f1b92213b8ed Rewriter_CSharp_Move_Folder.cs >}}
+
+{{< /tab >}} {{< tab tabNum="2" >}}
+
+{{< gist groupdocs-rewriter-cloud-gists bdbc6ae09de04cf308126f89fb93a1aa rewriter_python_move_folder.py >}}
 
 {{< /tab >}} {{< /tabs >}}

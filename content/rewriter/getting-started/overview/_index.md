@@ -15,13 +15,19 @@ keywords: ""
 
 * Microsoft Word
 * Adobe PDF (text on images in PDF document not supported)
+* OpenDocument Text
+* Markdown files
+* HTML files
 * Plain Text
 
 ####   ####
 
 #### Supported languages: ####
 
+* Arabic
 * English
+* Russian
+* Ukrainian
 
 ####   ####
 
@@ -35,6 +41,7 @@ See the full list of [Supported File Formats](rewriter/supported-document-format
 
 * [GroupDocs.Rewriter Cloud for cURL](https://products.groupdocs.cloud/rewriter/curl)
 * [GroupDocs.Rewriter Cloud for .NET](https://products.groupdocs.cloud/rewriter/net)
+* [GroupDocs.Rewriter Cloud for Python](https://products.groupdocs.cloud/rewriter/python)
 
 ####   ####
 
