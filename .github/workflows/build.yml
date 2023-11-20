@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - devops_test
     paths-ignore:
         '.github/**'
   # Triggers the workflow on pull
