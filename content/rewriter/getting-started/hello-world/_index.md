@@ -117,8 +117,17 @@ The authorization header must contain the access token obtained [earlier](#getti
 You will get the following response:
 
 ```json
-???????????
+{
+  "paraphraseReult": "Hello, everyone! We are going to try to recast this text as something new.",
+  "paraphraseResults": null,
+  "sourceList": null,
+  "targetList": null,
+  "statusCode": 200,
+  "message": "Text processed successfully"
+}
 ```
+
+You can fetch the paraphrased texts from the `paraphraseReult` property.
 
 ## What’s next?
 
