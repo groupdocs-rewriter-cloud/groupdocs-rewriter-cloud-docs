@@ -46,8 +46,7 @@ Now request an access token by sending the **POST** request to `https://id.group
 - `client_id` - the value from **Client Id** field.
 - `client_secret` - the value from **Client Secret** field.
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}} {{< tab "Request" >}}
 ```bash
 curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -55,8 +54,7 @@ curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      --data-urlencode 'client_id=CLIENT-ID-VALUE' \
      --data-urlencode 'client_secret=CLIENT-SECRET-VALUE'
 ```
-{{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< /tab >}} {{< tab "Resonse" >}}
 ```json
 {
      "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...LxLejtsVFwrZpHA",
@@ -64,8 +62,7 @@ curl --location --request POST 'https://id.groupdocs.cloud/connect/token' \
      "token_type": "Bearer"
 }
 ```
-{{< /tab >}}
-{{< /tabs >}}
+{{< /tab >}} {{< /tabs >}}
 
 The access token is returned in `access_token` property of the response JSON and will be valid for the number of seconds specified in the `expires_in` property of the response JSON. If it has expired, request a new one using the same API call.
 
@@ -82,9 +79,7 @@ curl --location 'https://api.groupdocs.cloud/v2.0/rewriter/paraphrase/text/dae53
 
 The SDKs greatly simplify all operations for obtaining an access token and authorizing requests. Just pass in the values from the **Client ID** and **Client Secret** fields when initializing the GroupDocs.Rewriter API and it will do the rest for you.
 
-{{< tabs tabID="2" tabTotal="1" tabName1=".NET (C#)" >}}
-
-{{< tab tabNum="1" >}}
+{{< tabs "example2">}} {{< tab ".NET (C#)" >}}
 ```csharp
 Configuration config = new Configuration();
 /** Authorize your requests to GroupDocs.Rewriter Cloud */
@@ -95,8 +90,6 @@ config.OAuthClientSecret = "YOU_CLIENT_SECRET";
 config.BasePath = "https://api.groupdocs.cloud/v2.0/rewriter/";
 RewriterApi apiInstance = new RewriterApi(config);
 ```
+{{< /tab >}} {{< /tabs >}}
 
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-dotnet
-{{< /tab >}}
-
-{{< /tabs >}}

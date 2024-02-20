@@ -59,9 +59,9 @@ You should get a response that looks something like this:
 
 ```json
 {
-	"access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...LxLejtsVFwrZpHA",
-	"expires_in": 3600,
-	"token_type": "Bearer"
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...LxLejtsVFwrZpHA",
+    "expires_in": 3600,
+    "token_type": "Bearer"
 }
 ```
 
@@ -97,9 +97,9 @@ Wait a moment. The request will be placed in the queue and you will get its uniq
 
 ```json
 {
-	"status": 202,
-	"message": "Starting",
-	"id": "dae5390e-3658-4bff-85bf-4a77cc04eaa5_text"
+    "status": 202,
+    "message": "Starting",
+    "id": "dae5390e-3658-4bff-85bf-4a77cc04eaa5_text"
 }
 ```
 
@@ -118,12 +118,12 @@ You will get the following response:
 
 ```json
 {
-  "paraphraseReult": "Hello, everyone! We are going to try to recast this text as something new.",
-  "paraphraseResults": null,
-  "sourceList": null,
-  "targetList": null,
-  "statusCode": 200,
-  "message": "Text processed successfully"
+    "paraphraseReult": "Hello, everyone! We are going to try to recast this text as something new.",
+    "paraphraseResults": null,
+    "sourceList": null,
+    "targetList": null,
+    "statusCode": 200,
+    "message": "Text processed successfully"
 }
 ```
 

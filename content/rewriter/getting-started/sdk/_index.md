@@ -37,8 +37,8 @@ See the examples below for a quick overview of how SDKs can make your developmen
 
 ### Paraphrasing the text 
 
-{{< tabs tabTotal="1" tabID="1" tabName1=".NET (C#)">}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab ".NET (C#)" >}}
 ```csharp
 public TextResponse RewriteText(Configuration conf)
 {
@@ -53,7 +53,7 @@ public TextResponse RewriteText(Configuration conf)
     return response;
 }
 ```
-
-Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-dotnet
 {{< /tab >}}
 {{< /tabs >}}
+
+Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-dotnet

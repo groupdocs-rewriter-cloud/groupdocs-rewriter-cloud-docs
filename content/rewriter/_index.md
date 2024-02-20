@@ -6,7 +6,7 @@ author: "Vladimir Lapin"
 type: docs
 url: rewriter
 productName: "GroupDocs.Rewriter Cloud"
-title: GroupDocs.Rewriter Cloud Product Family
+title: GroupDocs.Rewriter Cloud
 description: An introduction to natural language processing technology and how GroupDocs.Rewriter Cloud can help you use it for your day-to-day business needs.
 keywords:
 - overview
@@ -45,7 +45,7 @@ Explore free online apps build with GroupDocs.Rewriter Cloud. Experience product
 
 GroupDocs provides unlimited free technical support for GroupDocs.Rewriter Cloud. Support is available to all users, regardless of subscription type, including free tier users.
 
-The main support channel is the **Free Support Forum**. Post your question to [GroupDocs.Rewriter Cloud Product Family topics](https://forum.groupdocs.cloud/c/rewriter/34) and it will be answered within a few hours by the GroupDocs.Rewriter Cloud development team. When waiting for a response on the forums, please consider the difference in time zones.
+The main support channel is the **Free Support Forum**. Post your question to [GroupDocs.Rewriter Cloud topics](https://forum.groupdocs.cloud/c/rewriter/34) and it will be answered within a few hours by the GroupDocs.Rewriter Cloud development team. When waiting for a response on the forums, please consider the difference in time zones.
 
 {{% alert color="primary" %}} 
 We do not provide technical support by phone. Phone support is only available for sales and purchases.
