@@ -6,17 +6,15 @@ name: publish-prod
 on: 
   push:
     branches:    
-      - master
+      - main
   workflow_dispatch:
-    branches:    
-      - master
 
 jobs:
 
   build:
     runs-on: ubuntu-latest      
     env:
-      PRODUCT: signature
+      PRODUCT: rewriter
       ROOT_DIR: docs-cloud-common
       SRC_DIR: docs-cloud-common/public
       DEST_DIR: /var/www/docs.groupdocs.cloud/html
