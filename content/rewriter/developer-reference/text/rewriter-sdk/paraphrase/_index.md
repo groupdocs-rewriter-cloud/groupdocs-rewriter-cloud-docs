@@ -1,43 +1,25 @@
 ---
-id: "sdk"
-weight: 50
-date: "2023-12-15"
+id: "paraphrase-text-sdk"
+weight: 30
+date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: rewriter/sdk
-aliases:
-- rewriter/available-sdks
+url: /rewriter/text/sdk/paraphrase
 productName: "GroupDocs.Rewriter Cloud"
-title: Available SDKs
-description: Find the latest software development kits (SDKs) that help you easily integrate GroupDocs.Rewriter Cloud into your applications.
+title: Paraphrase text with GroupDocs.Rewriter SDK
+description: How to use GroupDocs.Rewriter Cloud SDK for paraphrasing texts.
 keywords:
-- .NET
-- Python
-- code
-- programming
-- SDK
+- paraphrase
+- API
+- program
+- language
+- text
+- content
 ---
 
-GroupDocs offers software development kits (SDKs) for popular programming languages that make interaction with GroupDocs.Rewriter cloud services much easier. It allows you to focus on business logic rather than the technical details.
+## Learn more
 
-SDKs handle all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods. The following programming languages are supported:
-
-- [GroupDocs.Rewriter Cloud for .NET](https://products.groupdocs.cloud/rewriter/net/)  
-  Use the content processing features in any on-premise and web-based .NET application.
-- [GroupDocs.Rewriter Cloud for Python](https://products.groupdocs.cloud/rewriter/python/)  
-  Natively integrate content processing features into data analytics, finance, AI, and other Python applications and notebooks.
-- [GroupDocs.Rewriter Cloud for Java](https://products.groupdocs.cloud/rewriter/java)  
-  Use GroupDocs.Rewriter in cross-platform Java apps.
-
-All SDKs are open-source distributed under [MIT License](https://opensource.org/licenses/MIT). You can freely use them for any projects, including commercial and proprietary applications, as well as modify any part of the code.
-
-The provided code is fully tested and ready to run out of the box.
-
-## SDK usage examples
-
-See the examples below for a quick overview of how SDKs can make your development easier.
-
-### Paraphrasing the text 
+Although you can directly call the GroupDocs.Rewriter Cloud REST API to [send text](/rewriter/text/request/) and [fetch the result](/rewriter/text/fetch/), there is a much easier way to implement required functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Rewriter Cloud services much easier, allowing you to focus on business logic rather than technical details.
 
 {{< tabs tabID="1" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java"  >}}
 
@@ -82,7 +64,7 @@ namespace GroupDocs.Rewriter.Cloud.Sdk
                     while (true)
                     {
                         textResponse = await api.ParaphraseTextRequestIdGetAsync(responseId.Id);
-                        if ((HttpStatusCode)textResponse.Status == HttpStatusCode.OK)
+                        if (textResponse.Status.ToString() == "OK")
                         {
                             Console.WriteLine("Plain text paraphrasing: " + textResponse.ParaphraseReult);
                             break;
@@ -137,6 +119,7 @@ Visit our GitHub repository for a working code and sample files: https://github.
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
+
 ```java
 package com.groupdocs;
 // Import classes:
@@ -162,10 +145,10 @@ public class Demo {
         try {
             StatusResponse response = apiInstance.paraphraseTextPost(request);
             String response_id = response.getId();
-            if (!response.getStatus().toString().equals("500")){
+            if (!response.getStatus().toString().equals("BadRequest")){
                 while (true){
                     ParaphraseTextResponse paraphraseTextResponse = apiInstance.paraphraseTextRequestIdGet(response_id);
-                    if (paraphraseTextResponse.getStatus().toString().equals("200")) {
+                    if (paraphraseTextResponse.getStatus().toString().equals("OK")) {
                         System.out.println(paraphraseTextResponse);
                         break;
                     }
@@ -190,5 +173,3 @@ Visit our GitHub repository for a working code and sample files: https://github.
 {{< /tab >}}
 
 {{< /tabs >}}
-
-

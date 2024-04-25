@@ -28,7 +28,7 @@ Simplify text | <ul><li>Maximum **1,000** characters (including spaces and line 
 Simplify document | <ul><li>Maximum **1,000** characters (including spaces) _or_ the first page (whichever less).</li><li>Conversion to other formats is not supported.</li></ul>
 Summarize text | <ul><li>Maximum **1,000** characters (including spaces and line breaks)</li></ul>
 Summarize document | <ul><li>Maximum **1,000** characters (including spaces) _or_ the first page (whichever less).</li><li>Conversion to other formats is not supported.</li></ul>
-Substitute words with synonyms | <ul><li>Maximum **1,000** characters (including spaces and line breaks)</li></ul>
+
 
 Regardless of the called method, you are limited by **10** API calls per day from a single IP address.
 

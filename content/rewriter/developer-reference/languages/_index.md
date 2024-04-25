@@ -25,8 +25,10 @@ English | `en`
 French | `fr`
 German | `de`
 Indonesian | `id`
+Italian | `it`
 Portuguese | `pt`
 Russian | `ru`
+Slovak | `sk`
 Spanish | `es`
 Ukrainian | `uk`
 
@@ -36,7 +38,7 @@ Ukrainian | `uk`
 {
   "language": "en",
   "text": "Hello, everyone! We will try to rephrase this text into something new.",
-  "suggestions": "one",
-  "diversityDegree": "medium"
+  "suggestions": "One",
+  "diversityDegree": "Off"
 }
 ```

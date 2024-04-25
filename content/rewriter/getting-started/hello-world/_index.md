@@ -86,8 +86,8 @@ curl --request POST --location 'https://api.groupdocs.cloud/v2.0/rewriter/paraph
 --data '{
   "language": "en",
   "text": "Hello, everyone! We will try to rephrase this text into something new.",
-  "suggestions": "one",
-  "diversityDegree": "medium"
+  "suggestions": "One",
+  "diversityDegree": "Medium"
 }'
 ```
 
@@ -127,7 +127,7 @@ You will get the following response:
 }
 ```
 
-You can fetch the paraphrased texts from the `paraphraseReult` property.
+You can fetch the paraphrased texts from the `paraphraseResult` property.
 
 ## What’s next?
 

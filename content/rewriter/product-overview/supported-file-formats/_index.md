@@ -31,6 +31,8 @@ OpenDocument Text | .ODT | Documents created with a number of open source word p
 Microsoft PowerPoint | .PPTX<br />.PPTM<br />.PPT | Microsoft PowerPoint 97-2021 and Microsoft 365 PowerPoint presentations, including macro-enabled presentations.
 Markdown | .MD | Plain text files formatted using one of the dialects of the Markdown language (including Markdown with Hugo syntax).
 
+HTML and Markdown are available only for paraphrasing textual content.
+
 **Note:** We cannot guarantee that processed documents will be fully compatible with applications other than those in which the original document was created. For example, if the original document was created in Microsoft Office 2016, we recommend that you open the rewritten document in the same or newer version of Office applications.
 
 ## Conversion

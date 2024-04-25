@@ -16,14 +16,18 @@ keywords:
 - source
 ---
 
-GroupDocs.Rewriter Cloud can process content in **9** languages:
+GroupDocs.Rewriter Cloud can process content for paraphrasing, summarization and synonymization in **11** languages:
 
 - Arabic
 - English
 - French
 - German
 - Indonesian
+- Italian
 - Portuguese
 - Russian
+- Slovak
 - Spanish
 - Ukrainian
+
+Paraphrasing detection and text simplification work only with textual content in English.

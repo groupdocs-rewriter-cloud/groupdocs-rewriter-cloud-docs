@@ -25,14 +25,13 @@ GroupDocs.Rewriter Cloud uses advanced algorithms and natural language processin
 - Identify paraphrasing in texts and documents.
 - Make textual content shorter and easier to understand while retaining its essential meaning.
 - Present key points of content concisely and coherently.
-- Substitute words in a given text with synonyms to maintain a comparable meaning while introducing lexical variety.
 
-Supporting [9 languages](/rewriter/supported-languages/), the service can process both text and files in [all popular formats](/rewriter/supported-file-formats/) while maintaining the original layout, structure, and formatting. Documents can also be [converted](/rewriter/supported-file-formats/#conversion) on the fly, ensuring full compatibility with all editors and viewers.
+Supporting [11 languages](/rewriter/supported-languages/), the service can process both text and files in [all popular formats](/rewriter/supported-file-formats/) while maintaining the original layout, structure, and formatting. Documents can also be [converted](/rewriter/supported-file-formats/#conversion) on the fly, ensuring full compatibility with all editors and viewers.
 
 With GroupDocs.Rewriter Cloud, you do not have to worry about complex and resource-intensive machine learning algorithms. Running as an online service, it offers an easy-to-use, fast and secure REST API that allows you to perform the [content processing and conversion](/rewriter/developer-guide/) with a single [HTTPS call](https://api.groupdocs.cloud/v2.0/rewriter/swagger/index.html) from any device or platform, including entry-level smartphones, Chromebooks and legacy PCs.
 
 ![Cloud-based neural text processing](/rewriter/product-overview/rewrite-overview.png)
 
-GroupDocs.Rewriter Cloud also comes with open-source software development kits (SDKs) for [.NET](https://products.groupdocs.cloud/rewriter/net/) and [Python](https://products.groupdocs.cloud/rewriter/python/), which allow you to focus on your business needs rather than low-level technical details of API requests.
+GroupDocs.Rewriter Cloud also comes with open-source software development kits (SDKs) for [.NET](https://products.groupdocs.cloud/rewriter/net/), [Python](https://products.groupdocs.cloud/rewriter/python/) and [Java](https://products.groupdocs.cloud/rewriter/java/), which allow you to focus on your business needs rather than low-level technical details of API requests.
 
 ## Learn more
