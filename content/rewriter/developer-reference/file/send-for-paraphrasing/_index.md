@@ -22,8 +22,8 @@ To process file, send a **POST** request to the `https://api.groupdocs.cloud/v2.
 
 The link to file and processing parameters are provided in JSON format in the request body. 
 
-{{< tabs tabID="1" tabTotal="4" tabName1="Detect" tabName2="Paraphrase" tabName3="Simplify" tabName4="Summarize" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Detect" >}}
 
 ```json
 {
@@ -40,7 +40,7 @@ Property | Description
 `minLength ` | Minimal length of files textual content to apply paraphrasing detection.
 `format ` | File format.
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Paraphrase" >}}
 
 ```json
 {
@@ -61,7 +61,7 @@ Property | Description
 `diversityDegree` | Degree of paraphrasing, accepted values Off, Medium and High.
 `format` | File format.
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Simplify" >}}
 
 ```json
 {
@@ -79,7 +79,7 @@ Property | Description
 `savingMode ` | How the result shoud be saved, as file, as archive or both.
 `outputFormat ` | Format of the simplified file.
 `format` | File format.{{< /tab >}}
-{{< tab tabNum="4" >}}
+{{< tab "Summarize" >}}
 
 ```json
 {

@@ -27,8 +27,8 @@ When text is submitted for processing, it is queued to ensure a stable response 
 
 Processed texts are returned in JSON format in the response body and are slightly different according to task.
 
-{{< tabs tabID="1" tabTotal="5" tabName1="Detect" tabName2="Paraphrase" tabName3="Simplify" tabName4="Summarize" tabName5="Synonymize" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Detect" >}}
 
 ```json
 {
@@ -46,7 +46,7 @@ Property | Description
 `probability` | Probability that provided text was paraphrased.
 `isParaphrased` | If provided text was paraphrased.
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Paraphrase" >}}
 
 ```json
 {
@@ -64,7 +64,7 @@ Property | Description
 `paraphraseResult` | Paraphrased text, this property is returned if a single text was sent.
 `paraphraseResults` | Paraphrased texts, this property is returned if several texts were sent for paraphrasing.
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Simplify" >}}
 
 ```json
 {
@@ -82,7 +82,7 @@ Property | Description
 `simplifyResult` | Simpllified text, this property is returned if a single text was sent.
 `simplifyResults` | Simplified texts, this property is returned if several texts were sent for simplifying.
 {{< /tab >}}
-{{< tab tabNum="4" >}}
+{{< tab "Summarize" >}}
 
 ```json
 {
@@ -100,7 +100,7 @@ Property | Description
 `summarizationResult` | Summarized text, this property is returned if a single text was sent.
 `summarizationResults` | Summarized texts, this property is returned if several texts were sent for summarization.
 {{< /tab >}}
-{{< tab tabNum="5" >}}
+{{< tab "Synonymize" >}}
 
 ```json
 {
@@ -125,15 +125,15 @@ Results are stored in the GroupDocs cloud and can be obtained by the task ID wit
 
 ## cURL example for authorized paraphrasing
 
-{{< tabs tabID="2" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example2">}}
+{{< tab "Request" >}}
 
 ```bash
 curl --location 'https://api.groupdocs.cloud/v2.0/rewriter/paraphrase/text/dae5390e-3658-4bff-85bf-4a77cc04eaa5_text' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...LxLejtsVFwrZpHA'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Response" >}}
 
 ```json
 {

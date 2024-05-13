@@ -21,9 +21,9 @@ keywords:
 
 Although you can directly call the GroupDocs.Rewriter Cloud REST API to [send text](/rewriter/text/request/) and [fetch the result](/rewriter/text/fetch/), there is a much easier way to implement required functionality in your applications. We provide software development kits (SDKs) for all popular programming languages. They wrap up all routine operations such as establishing connections, sending API requests, and parsing responses into a few simple methods. It makes interaction with GroupDocs.Rewriter Cloud services much easier, allowing you to focus on business logic rather than technical details.
 
-{{< tabs tabID="1" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java"  >}}
+{{< tabs "example1">}}
 
-{{< tab tabNum="1" >}}
+{{< tab ".NET (C#)" >}}
 
 ```csharp
 using GroupDocs.Rewriter.Cloud.Sdk.Api;
@@ -90,7 +90,7 @@ namespace GroupDocs.Rewriter.Cloud.Sdk
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-dotnet
 {{< /tab >}}
 
-{{< tab tabNum="2" >}}
+{{< tab "Python" >}}
 
 ```python
 import time
@@ -118,7 +118,7 @@ if status.status == groupdocs_rewriter_cloud.models.HttpStatusCode.ACCEPTED:
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-python
 {{< /tab >}}
 
-{{< tab tabNum="3" >}}
+{{< tab "Java" >}}
 
 ```java
 package com.groupdocs;

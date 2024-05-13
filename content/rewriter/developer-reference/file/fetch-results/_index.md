@@ -27,8 +27,8 @@ When file is submitted for processing, it is queued to ensure a stable response 
 
 Processed files are returned in JSON format in the response body and are slightly different according to task.
 
-{{< tabs tabID="2" tabTotal="5" tabName1="Detect" tabName2="Paraphrase" tabName3="Simplify" tabName4="Summarize" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Detect" >}}
 
 ```json
 {
@@ -46,7 +46,7 @@ Property | Description
 `probability` | Probability that provided file was paraphrased.
 `isParaphrased` | If provided file was paraphrased.
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Paraphrase" >}}
 
 ```json
 {
@@ -62,7 +62,7 @@ Property | Description
 `message` | Verbose status message.
 `url` | Link to paraphrased file.
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Simplify" >}}
 
 ```json
 {
@@ -78,7 +78,7 @@ Property | Description
 `message` | Verbose status message.
 `url` | Link to simplified file.
 {{< /tab >}}
-{{< tab tabNum="4" >}}
+{{< tab "Summarize" >}}
 
 ```json
 {
@@ -103,14 +103,14 @@ Files are stored in the GroupDocs cloud and can be obtained by the task ID withi
 
 ## cURL example
 
-{{< tabs tabID="1" tabTotal="2" tabName1="Request" tabName2="Response" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example2">}}
+{{< tab "Request" >}}
 ```bash
 curl --location 'https://api.groupdocs.cloud/v2.0/rewriter/paraphrase/document/dae5390e-3658-4bff-85bf-4a77cc04eaa5' \
 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...LxLejtsVFwrZpHA'
 ```
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Response" >}}
 ```json
 {
 	"status": 200,

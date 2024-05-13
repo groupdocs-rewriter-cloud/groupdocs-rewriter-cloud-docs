@@ -22,8 +22,8 @@ To process plain text, send a **POST** request to the `https://api.groupdocs.clo
 
 The text and processing parameters are provided in JSON format in the request body. 
 
-{{< tabs tabID="1" tabTotal="5" tabName1="Detect" tabName2="Paraphrase" tabName3="Simplify" tabName4="Summarize" tabName5="Synonymize" >}}
-{{< tab tabNum="1" >}}
+{{< tabs "example1">}}
+{{< tab "Detect" >}}
 
 ```json
 {
@@ -38,7 +38,7 @@ Property | Description
 `text` | Text to be detected for paraphrasing.
 `texts` | Texts to be detected for paraphrasing.
 {{< /tab >}}
-{{< tab tabNum="2" >}}
+{{< tab "Paraphrase" >}}
 
 ```json
 {
@@ -57,7 +57,7 @@ Property | Description
 `suggestions` | Number of variants to return, accepted values One, Two or Three.
 `diversityDegree` | Degree of paraphrasing, accepted values Off, Medium and High.
 {{< /tab >}}
-{{< tab tabNum="3" >}}
+{{< tab "Simplify" >}}
 
 ```json
 {
@@ -72,7 +72,7 @@ Property | Description
 `text` | Text for simplification.
 `texts` | Texts for simplification.
 {{< /tab >}}
-{{< tab tabNum="4" >}}
+{{< tab "Summarize" >}}
 
 ```json
 {
@@ -89,7 +89,7 @@ Property | Description
 `texts` | Texts to be detected for summarization.
 `summarizationDegree ` | Summarization degree, accepted values Off, Medium and High.
 {{< /tab >}}
-{{< tab tabNum="5" >}}
+{{< tab "Synonymize" >}}
 
 ```json
 {

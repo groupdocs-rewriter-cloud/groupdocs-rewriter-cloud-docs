@@ -39,9 +39,9 @@ See the examples below for a quick overview of how SDKs can make your developmen
 
 ### Paraphrasing the text 
 
-{{< tabs tabID="1" tabTotal="3" tabName1=".NET (C#)" tabName2="Python" tabName3="Java"  >}}
+{{< tabs "example1">}}
 
-{{< tab tabNum="1" >}}
+{{< tab ".NET (C#)" >}}
 
 ```csharp
 using GroupDocs.Rewriter.Cloud.Sdk.Api;
@@ -105,10 +105,9 @@ namespace GroupDocs.Rewriter.Cloud.Sdk
     }
 }
 ```
-Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-dotnet
 {{< /tab >}}
 
-{{< tab tabNum="2" >}}
+{{< tab "Python" >}}
 
 ```python
 import time
@@ -136,7 +135,7 @@ if status.status == groupdocs_rewriter_cloud.models.HttpStatusCode.ACCEPTED:
 Visit our GitHub repository for a working code and sample files: https://github.com/groupdocs-rewriter-cloud/groupdocs-rewriter-cloud-python
 {{< /tab >}}
 
-{{< tab tabNum="3" >}}
+{{< tab "Java" >}}
 ```java
 package com.groupdocs;
 // Import classes:
