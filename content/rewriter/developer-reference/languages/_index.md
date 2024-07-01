@@ -24,12 +24,14 @@ Arabic | `ar`
 English | `en`
 French | `fr`
 German | `de`
+Hindi | `hi`
 Indonesian | `id`
 Italian | `it`
 Portuguese | `pt`
 Russian | `ru`
 Slovak | `sk`
 Spanish | `es`
+Thai | `th`
 Ukrainian | `uk`
 
 ## Example
