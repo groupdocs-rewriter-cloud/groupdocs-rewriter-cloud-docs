@@ -24,7 +24,7 @@ jobs:
 
       - name: Submodule update
         run: |
-          ls -R content
+          rm -rf ${{ env.ROOT_DIR }}
           git submodule update --init --recursive
           git submodule foreach git pull origin master
 
