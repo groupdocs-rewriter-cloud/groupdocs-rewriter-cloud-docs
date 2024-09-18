@@ -24,6 +24,7 @@ jobs:
 
       - name: Submodule update
         run: |
+          ls -R content
           git submodule update --init --recursive
           git submodule foreach git pull origin master
 
@@ -39,6 +40,7 @@ jobs:
       - name: Run and build Hugo
         run: |
           rm -rf ${{ env.ROOT_DIR }}/content/
+          ls -R content
           # echo ${{ env.ROOT_DIR }}
           cp -r content/* ${{ env.ROOT_DIR }}/content/          
           hugo --source ${{ env.ROOT_DIR }} --minify --config config-geekdoc.toml
