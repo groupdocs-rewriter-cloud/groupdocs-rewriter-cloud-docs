@@ -39,10 +39,9 @@ jobs:
 
       - name: Run and build Hugo
         run: |
-          rm -rf ${{ env.ROOT_DIR }}/content/
           rm -rf ${{ env.SRC_DIR }}/${{ env.PRODUCT }}
-          # echo ${{ env.ROOT_DIR }}
-          cp -r content/* ${{ env.ROOT_DIR }}/content/          
+          rm -rf ${{ env.ROOT_DIR }}/content/
+          cp -r content ${{ env.ROOT_DIR }}/content/          
           hugo --source ${{ env.ROOT_DIR }} --minify --config config-geekdoc.toml
           rootUrl=$(sed -n -e '/^baseURL/p' ${{ env.ROOT_DIR }}/config-geekdoc.toml | sed 's/baseURL//; s/\s*//g; s/=//; s/"//g')
           # echo $rootUrl
