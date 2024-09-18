@@ -1,5 +1,5 @@
 ---
-id: "getting-started"
+id: "subscription"
 weight: 30
 date: "2023-12-15"
 author: "Vladimir Lapin"
