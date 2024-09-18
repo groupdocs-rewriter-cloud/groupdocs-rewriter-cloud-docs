@@ -4,7 +4,7 @@ weight: 30
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/file/sdk/paraphrase
+url: rewriter/file/sdk/paraphrase
 productName: "GroupDocs.Rewriter Cloud"
 title: Paraphrase file with GroupDocs.Rewriter SDK
 description: How to use GroupDocs.Rewriter Cloud SDK for paraphrasing files.

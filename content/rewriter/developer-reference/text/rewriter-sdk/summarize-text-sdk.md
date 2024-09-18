@@ -4,7 +4,7 @@ weight: 50
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/text/sdk/summarize
+url: rewriter/text/sdk/summarize
 productName: "GroupDocs.Rewriter Cloud"
 title: Summarizing text with GroupDocs.Rewriter SDK
 description: How to use GroupDocs.Rewriter Cloud SDK for texts summarization.

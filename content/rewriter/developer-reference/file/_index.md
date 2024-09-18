@@ -4,7 +4,7 @@ weight: 40
 date: "2023-10-20"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/file/
+url: rewriter/file/
 productName: "GroupDocs.Rewriter Cloud"
 title: Processing files
 description: How to process a file.

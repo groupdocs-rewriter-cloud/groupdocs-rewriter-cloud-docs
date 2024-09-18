@@ -4,7 +4,7 @@ weight: 10
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/file/upload/
+url: rewriter/file/upload/
 productName: "GroupDocs.Rewriter Cloud"
 title: Upload file
 description: How to upload file to Cloud storage.

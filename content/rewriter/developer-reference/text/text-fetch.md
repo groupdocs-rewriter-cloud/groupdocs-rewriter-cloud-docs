@@ -4,7 +4,7 @@ weight: 20
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/text/fetch/
+url: rewriter/text/fetch/
 productName: "GroupDocs.Rewriter Cloud"
 title: Fetching results
 description: How to fetch the result from the GroupDocs.Rewriter Cloud queue.

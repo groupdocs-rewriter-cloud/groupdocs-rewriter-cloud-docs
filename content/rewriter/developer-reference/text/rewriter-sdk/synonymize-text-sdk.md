@@ -4,7 +4,7 @@ weight: 30
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/text/sdk/synoymize
+url: rewriter/text/sdk/synoymize
 productName: "GroupDocs.Rewriter Cloud"
 title: Findging synonyms with GroupDocs.Rewriter SDK
 description: How to use GroupDocs.Rewriter Cloud SDK to find synonyms for word or phrase.

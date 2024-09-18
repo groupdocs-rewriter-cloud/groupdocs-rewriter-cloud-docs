@@ -4,7 +4,7 @@ weight: 10
 date: "2023-10-20"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/file/request/
+url: rewriter/file/request/
 productName: "GroupDocs.Rewriter Cloud"
 title: Sending files for processing
 description: How to send files for processing to the selected language.

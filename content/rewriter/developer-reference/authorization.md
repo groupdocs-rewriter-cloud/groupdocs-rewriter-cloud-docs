@@ -4,7 +4,7 @@ weight: 20
 date: "2023-12-15"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/authorization/
+url: rewriter/authorization/
 productName: "GroupDocs.Rewriter Cloud"
 title: Authorization
 description: How to get an access token and use it to authorize GroupDocs.Rewriter Cloud API requests.

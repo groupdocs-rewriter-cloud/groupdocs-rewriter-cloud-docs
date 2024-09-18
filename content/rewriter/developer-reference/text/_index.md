@@ -4,7 +4,7 @@ weight: 40
 date: "2023-10-20"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/text/
+url: rewriter/text/
 productName: "GroupDocs.Rewriter Cloud"
 title: Working with texts
 description: How to work with content in textual form.

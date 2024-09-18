@@ -4,7 +4,7 @@ weight: 20
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/file/sdk/detect
+url: rewriter/file/sdk/detect
 productName: "GroupDocs.Rewriter Cloud"
 title: Detecting paraphrases in files with GroupDocs.Rewriter SDK
 description: How to use GroupDocs.Rewriter Cloud SDK for paraphrase detection in files.

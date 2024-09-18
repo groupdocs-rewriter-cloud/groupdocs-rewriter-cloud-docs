@@ -4,7 +4,7 @@ weight: 30
 date: "2023-12-15"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/languages/
+url: rewriter/languages/
 productName: "GroupDocs.Rewriter Cloud"
 title: Setting content language
 description: How to specify a language of the processed text.

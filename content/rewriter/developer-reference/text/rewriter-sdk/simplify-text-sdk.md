@@ -4,7 +4,7 @@ weight: 40
 date: "2023-11-01"
 author: "Vladimir Lapin"
 type: docs
-url: /rewriter/text/sdk/simmplify
+url: rewriter/text/sdk/simmplify
 productName: "GroupDocs.Rewriter Cloud"
 title: Simplifying text with GroupDocs.Rewriter SDK
 description: How to use GroupDocs.Rewriter Cloud SDK for texts simplification.
